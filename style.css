@@ -5,7 +5,7 @@
     --cor-de-fundo: #00030C;
 } 
 
-{
+* {
     margin: 0;
     padding: 0;
 }
