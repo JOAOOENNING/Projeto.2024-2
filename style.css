@@ -6,7 +6,6 @@
     --fonte-principal: 'Inter';
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -26,14 +25,11 @@ body {
     align-items: center;
     text-align: center;
 }
-
 .container {
-     height: 100vh;
-     display: grid;
-     grid-template-columns: 50% 50%;
-    }
-    
-
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -60,8 +56,7 @@ body {
 .secundario__imagem {
     width: 80%;
 }
-
-.container_secundario {
+.secundario {
     align-items: center;
     margin: 0 10em;
 }
@@ -81,6 +76,20 @@ body {
 .container__descricao {
     padding: 2em;
 }
-
-
-
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos {
+    text-align: center;
+}
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
